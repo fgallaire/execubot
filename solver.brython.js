@@ -5,5 +5,5 @@ __BRYTHON__.curdir = "https://execubot.fr"
 __BRYTHON__.runPythonSource("import solver")
 solve = __BRYTHON__.getPythonModule("solver").solve
 solver = __BRYTHON__.getPythonModule("solver").solver
-extractor = __BRYTHON__.getPythonModule("extractor").solver
-stdgrid = __BRYTHON__.getPythonModule("stdgrid").solver
+extractor = __BRYTHON__.getPythonModule("solver").extractor
+stdgrid = __BRYTHON__.getPythonModule("solver").stdgrid
